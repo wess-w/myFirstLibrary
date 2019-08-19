@@ -1,17 +1,18 @@
 package com.example.mylibrary;
 
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import io.reactivex.Observable;
-import io.reactivex.ObservableSource;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
+
+/**
+ * Class For Converting Temprature from Celsuis to Fahrenheit
+ */
 
 public class TempratureConvertor {
 
